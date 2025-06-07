@@ -1,6 +1,31 @@
+.Dd June 7, 2025
 .Dt DISFUCK 7
-.Dd July 7, 2025
 .Os
 .Sh NAME
 .Nm disfuck
 .Nd Combination of two esoteric languages Dis and brainfuck
+.Sh DESCRIPTION
+The
+.Nm DisFuck
+is a programming language that works on a virtual machine with
+the following elements:
+.Bl -tag -width Ds
+.It register A
+Accumulator.
+.It register C
+Program counter.
+.It register D
+Data pointer.
+.It program memory
+Stores command characters.
+.It data memory
+Stores data values.
+.El
+.Pp
+It uses data type of base-3 10-digit integers;
+integer values 0 thru 59048 are stored onto memory.
+.Ss Syntax
+The
+.Nm DisFuck
+language program source represents list of command characters
+.Pq and optionally comments .
