@@ -1,0 +1,29 @@
+(Outputs every Dis commands then tab then decending order then newline)
+
+(Output constants in acsending order)
++.+.+.+.+.+.+.+.
+
+(Create tab)
++ (Cell has 33)
+| (A, cell has 0-33)
+>< (A has 0)
+| (A, cell has 0-[0-33]=33)
++| (A, cell has 33-42=9)
+{ (Output its register)
+{ (Output it)
+
+
+(Decending order()
+_ (Go right)
+-.-.-.-.-.-.-.-.
+(Create newline)
+|| (Make this cell and A zero)
++|><|+| (Create 9 by that again)
+(I want to add one)
+- (Get 125)
+| (9-125)
+_--- (Get 123 at new cell)
+| (9-125-123)
+_--- (Get 123 at new cell)
+| (9-125-123-123 = 9-2 = 10)
+{
